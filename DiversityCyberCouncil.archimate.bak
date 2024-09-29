@@ -261,7 +261,7 @@ Does not include:&#xD;
       <child xsi:type="archimate:Group" id="id-a03da37f3ede486285a27621ac8cb9ad" name="Payments and full CVs revealing" textAlignment="1">
         <bounds x="516" y="540" width="673" height="385"/>
         <child xsi:type="archimate:DiagramObject" id="id-664ed2f06e6e4ea4854a137edf249b01" targetConnections="id-c8b11301a4ae4e03a6ed61ec9be5e389 id-6cd0e7b768e844a5959f098c5c1c84ba" archimateElement="id-65f48b131207497fb80e5b75e0da688a" type="1">
-          <bounds x="492" y="24" width="120" height="55"/>
+          <bounds x="492" y="36" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-56c997dc545e4faa8d87b2bbfd8e3540" targetConnections="id-8e58cfedeb6949ae8c75165d9789040d id-4b5282d99e214535877b3b7f1051416f" archimateElement="id-b9073b9531f040248b330bcdda390ae7" type="1">
           <bounds x="132" y="48" width="120" height="61"/>
@@ -269,7 +269,7 @@ Does not include:&#xD;
           <sourceConnection xsi:type="archimate:Connection" id="id-c562ff44701e43be826094ede9cdf5a4" source="id-56c997dc545e4faa8d87b2bbfd8e3540" target="id-ec879b21beb64229802f6b12a1856039" archimateRelationship="id-61e179ffbdb84ba8bfb3a18a91b797d1"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-50e6a3e6bade47928905ce5f9b920010" targetConnections="id-f111ef47cbc24ca6b418d4c93df59a2c" archimateElement="id-04541d9cdabd47d692446aa37b2d9fc6">
-          <bounds x="276" y="24" width="120" height="55"/>
+          <bounds x="276" y="51" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-8ea41c9ac84e4474a540d55bd9707d00" source="id-50e6a3e6bade47928905ce5f9b920010" target="id-96b2813b38a6446bbcd43bec6ffd37bd" archimateRelationship="id-fa601f7eba224e16a84ca49b8a4a8907"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-5cfdc63f5e6348ffaa0b2eb5822198a7" targetConnections="id-44184db3692945249e3d99bbf293b096" archimateElement="id-5d0785c8e1854e2992671641525f79df">
@@ -454,12 +454,8 @@ Does not include:&#xD;
         <child xsi:type="archimate:DiagramObject" id="id-ee59d9d2c31547d79cc2720c75664beb" targetConnections="id-74abf1e44fab4d939c36cbbad04e1be5" archimateElement="id-40e960720224486dbb17c381eca154e9">
           <bounds x="48" y="324" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-1409ce723c5d4f978b541a2b2e395b36" source="id-ee59d9d2c31547d79cc2720c75664beb" target="id-fd2301d889b74b2fbacdafac6753f17f" archimateRelationship="id-7e52f015e9504a38bbd359e2d1a9a8d5">
-            <bendpoint startX="-108" startY="-3" endX="768" endY="117"/>
-            <bendpoint startX="-168" startY="-3" endX="708" endY="117"/>
-            <bendpoint startX="-168" startY="-63" endX="708" endY="57"/>
-            <bendpoint startX="-492" startY="-63" endX="384" endY="57"/>
-            <bendpoint startX="-492" startY="-111" endX="384" endY="9"/>
-            <bendpoint startX="-744" startY="-111" endX="132" endY="9"/>
+            <bendpoint startX="-216" startY="57" endX="660" endY="177"/>
+            <bendpoint startX="-504" startY="57" endX="372" endY="177"/>
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-1bba14d818d14b1597f62e28dab044e5" archimateElement="id-57bb86af7f804bd8ac7c5c737f58cf48">
