@@ -21,11 +21,11 @@
     <element xsi:type="archimate:BusinessObject" name="List of matched  De–identified resumes" id="id-eecd969a15be4e489abef77789ae2485"/>
     <element xsi:type="archimate:BusinessObject" name="Payment" id="id-28b8d4f422404067a1c2d4b5d79fb074"/>
     <element xsi:type="archimate:Contract" name="Contract" id="id-dbf3ed336b884f77b05f7b867505ddc3"/>
-    <element xsi:type="archimate:BusinessProcess" name="Paymients checking according to Contract (credit line etc.)" id="id-7e843c60f1c74ad185716481883aa891"/>
+    <element xsi:type="archimate:BusinessProcess" name="Payments checking according to Contract (credit line etc.)" id="id-7e843c60f1c74ad185716481883aa891"/>
     <element xsi:type="archimate:BusinessActor" name="Manager with signature rights" id="id-e762e1c195ac4838aabb07bdea6962ec"/>
     <element xsi:type="archimate:BusinessActor" name="DCC manager with signature rights" id="id-6e24a01a94cf4b3187bc5f21909e4ebf"/>
     <element xsi:type="archimate:BusinessObject" name="List of desired Resumes" id="id-65f48b131207497fb80e5b75e0da688a"/>
-    <element xsi:type="archimate:BusinessObject" name="Enhanced resumes opened for Employer" id="id-b9073b9531f040248b330bcdda390ae7"/>
+    <element xsi:type="archimate:BusinessObject" name="Enhanced resumes unlocked for Employer" id="id-b9073b9531f040248b330bcdda390ae7"/>
     <element xsi:type="archimate:BusinessActor" name="Payment System" id="id-9b1a64f39979468f928483a8c0cdac98"/>
     <element xsi:type="archimate:BusinessProcess" name="Payment Processing" id="id-fe2736ddd74d4f878ae3883c19671660"/>
     <element xsi:type="archimate:BusinessObject" name="Job Requirements (copy)" id="id-31880e4737394a0aae2994fcbc26be40"/>
@@ -35,19 +35,19 @@
   </folder>
   <folder name="Application" id="id-5fa997199e014385a35cb94d67001d75" type="application">
     <element xsi:type="archimate:ApplicationService" name="Event tracking service" id="id-dfd5d03fee98467681fca03a0cec6da0"/>
-    <element xsi:type="archimate:ApplicationEvent" name="Event &quot;CV opened&quot;" id="id-04541d9cdabd47d692446aa37b2d9fc6"/>
+    <element xsi:type="archimate:ApplicationEvent" name="Event &quot;Resume unlocked&quot;" id="id-04541d9cdabd47d692446aa37b2d9fc6"/>
     <element xsi:type="archimate:ApplicationEvent" name="Event &quot;Resume anonymized&quot;" id="id-aec7dd0dfd9f4bc9b530e0cc96b98529"/>
     <element xsi:type="archimate:ApplicationService" name="Event persistence service" id="id-651c11f34da24ba2b36a0e5ff3cb9407"/>
     <element xsi:type="archimate:ApplicationService" name="File persistence service" id="id-226aa03bff55445fa5f804e2cd062183"/>
     <element xsi:type="archimate:ApplicationEvent" name="Event &quot;Payment received&quot;" id="id-5d0785c8e1854e2992671641525f79df"/>
     <element xsi:type="archimate:ApplicationService" name="Report service" id="id-c4965ce8cc144860ba8f4eaddd74e337"/>
-    <element xsi:type="archimate:ApplicationEvent" name="Event &quot;CV matched&quot; (one per match)" id="id-8ae84f48ce404cb2b07de3fcd3385d0d"/>
+    <element xsi:type="archimate:ApplicationEvent" name="Event &quot;Resume matched&quot; (one per match)" id="id-8ae84f48ce404cb2b07de3fcd3385d0d"/>
     <element xsi:type="archimate:ApplicationEvent" name="Event &quot;Interview completed&quot;" id="id-ffbceededd404e6bad4351692e7ed6f7"/>
     <element xsi:type="archimate:ApplicationService" name="Survey service" id="id-90c7f02f792c4017b40ea40422a6865e"/>
-    <element xsi:type="archimate:ApplicationEvent" name="Event &quot;CV matched&quot; (one per match) (copy)" id="id-40b0829abdb147cf9d0d681f9dba5917"/>
+    <element xsi:type="archimate:ApplicationEvent" name="Event &quot;Resume matched&quot; (one per match) (copy)" id="id-40b0829abdb147cf9d0d681f9dba5917"/>
     <element xsi:type="archimate:ApplicationService" name="Anonymization Service" id="id-40e1503944bc49dbb760fea7e15880b2"/>
     <element xsi:type="archimate:ApplicationService" name="Resume Matching Service" id="id-4c5c41aae22a479296f3093944af01b5"/>
-    <element xsi:type="archimate:ApplicationService" name="Resume RankingService " id="id-58a15b88fd51422f8a18fa29dd09f876"/>
+    <element xsi:type="archimate:ApplicationService" name="Resume Ranking Service " id="id-58a15b88fd51422f8a18fa29dd09f876"/>
     <element xsi:type="archimate:DataObject" name=" De–identified resume" id="id-40e960720224486dbb17c381eca154e9"/>
     <element xsi:type="archimate:DataObject" name="Enhanced resume" id="id-57bb86af7f804bd8ac7c5c737f58cf48"/>
     <element xsi:type="archimate:DataObject" name="Set of matched Resumes" id="id-86d232e705024b9ca2bf63c103b01a14"/>
@@ -286,7 +286,7 @@ Does not include:&#xD;
           <sourceConnection xsi:type="archimate:Connection" id="id-91e476ad90864d34908a9a94c244220b" source="id-524704f49ab646508f0b47b232e6fb0f" target="id-034f6a85aa9a45d681bf82ad58fad8c6" archimateRelationship="id-97620d563a314d819e4b42f01a78d8f3"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-034f6a85aa9a45d681bf82ad58fad8c6" targetConnections="id-91e476ad90864d34908a9a94c244220b" archimateElement="id-8ae84f48ce404cb2b07de3fcd3385d0d">
-          <bounds x="180" y="312" width="120" height="73"/>
+          <bounds x="174" y="312" width="132" height="73"/>
         </child>
       </child>
       <child xsi:type="archimate:Group" id="id-405dc6c774d6424a9db0d05a4584dea7" name="CV subsystem" textAlignment="1">
