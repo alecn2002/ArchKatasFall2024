@@ -17,7 +17,7 @@
     <element xsi:type="archimate:BusinessService" name="HR system" id="id-6931dd3e9e1149e485b78706a5ccef26"/>
     <element xsi:type="archimate:BusinessService" name="Financial System" id="id-55aff2e9afd147cb86175919d36124e9"/>
     <element xsi:type="archimate:BusinessProcess" name="Matching" id="id-9e9a1b3746d84f26802c33f0b7a05e86"/>
-    <element xsi:type="archimate:BusinessObject" name="Job Requirements" id="id-8f851c158b6b4305b78864b612e912b0"/>
+    <element xsi:type="archimate:BusinessObject" name="Open Roles" id="id-8f851c158b6b4305b78864b612e912b0"/>
     <element xsi:type="archimate:BusinessObject" name="List of matched  De–identified resumes" id="id-eecd969a15be4e489abef77789ae2485"/>
     <element xsi:type="archimate:BusinessObject" name="Payment" id="id-28b8d4f422404067a1c2d4b5d79fb074"/>
     <element xsi:type="archimate:Contract" name="Contract" id="id-dbf3ed336b884f77b05f7b867505ddc3"/>
@@ -28,7 +28,7 @@
     <element xsi:type="archimate:BusinessObject" name="Enhanced resumes unlocked for Employer" id="id-b9073b9531f040248b330bcdda390ae7"/>
     <element xsi:type="archimate:BusinessActor" name="Payment System" id="id-9b1a64f39979468f928483a8c0cdac98"/>
     <element xsi:type="archimate:BusinessProcess" name="Payment Processing" id="id-fe2736ddd74d4f878ae3883c19671660"/>
-    <element xsi:type="archimate:BusinessObject" name="Job Requirements (copy)" id="id-31880e4737394a0aae2994fcbc26be40"/>
+    <element xsi:type="archimate:BusinessObject" name="Open Roles (copy)" id="id-31880e4737394a0aae2994fcbc26be40"/>
     <element xsi:type="archimate:BusinessProcess" name="Matching (copy)" id="id-93b4f7a9eab94c3fbdfe3037d2041d79"/>
     <element xsi:type="archimate:BusinessObject" name="List of matched  De–identified resumes (copy)" id="id-f6bef9dacd324ec7909ab2d55c9a2177"/>
     <element xsi:type="archimate:BusinessActor" name="Interviewer" id="id-263c8f6da41b41658b335235e2bf5544"/>
@@ -258,7 +258,7 @@ Does not include:&#xD;
 - Securety aspect</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="[Business] Main flow - split to subsystems" id="id-abcf83c782314f05819432c67b20be95">
-      <child xsi:type="archimate:Group" id="id-a03da37f3ede486285a27621ac8cb9ad" name="Payments and full CVs revealing" textAlignment="1">
+      <child xsi:type="archimate:Group" id="id-a03da37f3ede486285a27621ac8cb9ad" name="Payments and Resume unlocking" textAlignment="1">
         <bounds x="516" y="540" width="673" height="385"/>
         <child xsi:type="archimate:DiagramObject" id="id-664ed2f06e6e4ea4854a137edf249b01" targetConnections="id-c8b11301a4ae4e03a6ed61ec9be5e389 id-6cd0e7b768e844a5959f098c5c1c84ba" archimateElement="id-65f48b131207497fb80e5b75e0da688a" type="1">
           <bounds x="492" y="24" width="120" height="55"/>
@@ -281,7 +281,7 @@ Does not include:&#xD;
           <sourceConnection xsi:type="archimate:Connection" id="id-1be11a6c086041f3a488d9f519956149" source="id-783faffe8b3e4ce4aabda335cd869ed5" target="id-96b2813b38a6446bbcd43bec6ffd37bd" archimateRelationship="id-843d4331e35d4f31a0b4d08de47cd4ed"/>
         </child>
       </child>
-      <child xsi:type="archimate:Group" id="id-958494a5054a492884dd7a26dda03743" name="CV-Job Requirements Matching" textAlignment="1">
+      <child xsi:type="archimate:Group" id="id-958494a5054a492884dd7a26dda03743" name="Resume–Openn Role Matching" textAlignment="1">
         <bounds x="828" y="36" width="373" height="397"/>
         <child xsi:type="archimate:DiagramObject" id="id-a0059266a2704fcfb559759d4ab47309" targetConnections="id-d63e25ec6b814fe7a1c11a5d61170830 id-c04f246c61ab4c809f7571a023b97b2a" archimateElement="id-8f851c158b6b4305b78864b612e912b0" type="1">
           <bounds x="180" y="108" width="120" height="55"/>
@@ -303,7 +303,7 @@ Does not include:&#xD;
           <sourceConnection xsi:type="archimate:Connection" id="id-022382ae67c340bbb9d07e9069deb694" source="id-034f6a85aa9a45d681bf82ad58fad8c6" target="id-96b2813b38a6446bbcd43bec6ffd37bd" archimateRelationship="id-0f634924d12449ee803e0eb1deb2a833"/>
         </child>
       </child>
-      <child xsi:type="archimate:Group" id="id-405dc6c774d6424a9db0d05a4584dea7" name="CV subsystem" textAlignment="1">
+      <child xsi:type="archimate:Group" id="id-405dc6c774d6424a9db0d05a4584dea7" name="Resume subsystem" textAlignment="1">
         <bounds x="456" y="36" width="325" height="397"/>
         <child xsi:type="archimate:DiagramObject" id="id-03ce1b9118484d288887240c20ce0914" targetConnections="id-e5bbfb93777f412598b2dfe772b93e0d" archimateElement="id-aec7dd0dfd9f4bc9b530e0cc96b98529">
           <bounds x="36" y="312" width="120" height="55"/>
