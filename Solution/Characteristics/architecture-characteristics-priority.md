@@ -42,4 +42,5 @@ These are what should be expected from this kind of System, besides the implicit
 
 ### Scalability
 - **Definition**: A function of system capacity and growth over time; as the number of users or requests increase in the system, responsiveness, performance, and error rates remain constant. 
-- **Rationale**: If successful, the System may see increasing adoption as the potential user pool is quite large. While we expect that the "Employer" and HMRS pool will be capped, "Job Candidate" users are many more. They may grow faster and to a greater total amount. Hence, the System architecture must be able to evolve to satisfy future growth. 
+- **Rationale**: If successful, the System may see increasing adoption as the potential user pool is quite large. While we expect that the "Employer" and HMRS pool will be capped, "Job Candidate" users are many more. They may grow faster and to a greater total amount. Hence, the System architecture must be able to evolve to satisfy future growth.
+  
