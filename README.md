@@ -9,5 +9,5 @@ _Work in progress_
 - [SecurityAspect](SecurityAspect) on System security
 - [Solution](Solution) Architectural description
     - [Characteristics](Solution/Characteristics) driving characteristics of the architecture
-    - [Iteration1st/Models](Solution/Iteration1st/Models) 1st draft of main business flow and [System Context](Solution/Iteration2nd/Level1-c4model-SystemContext/System%20Context.md)
+    - [Iteration1st/Models](Solution/Iteration1st/Models) 1st draft of main [business flow](Solution/Iteration1st/Models/\[Business\]%20Main%20flow.svg) and [System Context](Solution/Iteration2nd/Level1-c4model-SystemContext/System%20Context.md)
     - [Iteration2nd](Solution/Iteration2nd) C4 and Archimate diagrams for current iteration
