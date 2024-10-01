@@ -10,4 +10,4 @@ _Work in progress_
 - [Solution](Solution) Architectural description
     - [Characteristics](Solution/Characteristics) driving characteristics of the architecture
     - [Iteration1st/Models](Solution/Iteration1st/Models) 1st draft of main business flow and System Context
-    - [Iteration2nd](Iteration2nd) C4 and Archimate diagrams for current iteration
+    - [Iteration2nd](Solution/Iteration2nd) C4 and Archimate diagrams for current iteration
