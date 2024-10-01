@@ -1,43 +1,16 @@
-# TITLE
-
-<span style="color:grey">*Short description stating the architecture decision.*</span>
-
-<H2>TITLE</H2>
-
-# STATUS
-
-*Proposed, Accepted, Superseded*
-
-<span style="color:yellow">Proposed</span>
-
-<span style="color:green">Accepted</span>
-
-<span style="color:red">Superseded</span>
-
-# CONTEXT
-
-<span style="color:grey">*What is forced me to make this decision?*</span>
-
-<span style="color:grey">*What were alternatives to decision done?*</span>
-
-# DECISION
-
-<span style="color:grey">*The decision and corresponding justification.*</span>
-
-<span style="color:grey">*Tradeoffs of the decision.*</span>
-Increased complexity of restoring keys in case if they're lost on the primary storage (inside the system) is a small cost that allows to ensure sensitive data availability.
-
-# CONSEQUENCES
-
-<span style="color:grey">*What is the impact of the decision?*</span>
-
-# COMPLIANCE
-
-<span style="color:grey">*Optional: How I will ensure compliance with the decision?*</span>
-
-# NOTES
-
-<span style="color:grey">*Optional: Metadata for the decision (author, date, etc.)*</span>
-
-* **Author:**
-* **Date:**
+_ADR structure Template. Instructions are in italics, please remove them from text. Cf. [Head First Software Architecture](https://learning.oreilly.com/library/view/head-first-software/9781098134341/ch03.html#writing_adrs_communicating_the_decision) for adefinition of ADR._
+## Title
+_A three-digit numerical prefix and a noun-heavy, succinct description of the decision being made._
+### Status
+_Assign one of many statuses, depending on the kind of ADR and its place in the decision workflow.
+Eg: RFC, PROPOSED, ACCEPTED, SUPERSEDED. (Only ACCEPTED status can be later superseded with a new ADR.)_
+### Context
+_Explains why the decision needed to be made to begin with._
+### Decision
+_Documents and justifies the actual decision being made. It always includes the “why.”_
+### Consequences
+_Describes the decision’s expected impact, good and bad._
+##### PROS:
+_The good._
+##### CONS:
+_The bad._
