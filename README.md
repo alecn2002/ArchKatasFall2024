@@ -41,8 +41,7 @@ The rest of architectural characteristics that are of high importance for the pr
 - Data Integrity
 - Workflow
 - Responsiveness
-
-### Scalability
+- Scalability
 
 ### Services
 
