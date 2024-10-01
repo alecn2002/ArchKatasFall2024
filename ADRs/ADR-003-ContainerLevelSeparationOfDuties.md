@@ -16,6 +16,11 @@ Two containers were specified:
 
 Only the second one would expose data to the HiringManager (representative of the Employer Actor). 
 
+In details:
+The "Resume/Open..Match" service should not deal with unlocking and not all matched Resumes will be approved for application by the JobSeeker. So, the match service should give _some_ de-identified resumes to the unlock service, but not all. Only the unlock service should deal with the HRMS. It is the business part, the match service should just tell to the rest of the system "this resume matches this set of open roles". The unlock service does the business decision of unlocking a matched resume if it is sold.
+
+We do not want the HRMS to read anything from the match service. A bug may let it have a resume that is not approved for release. Moreover, it is the unlock service that need to know what it is offered to the HRMS. So the matched resumes pass through the unlock service, and not directly go to the HRMS.
+
 See: Solution/Iteration2nd/Level2-c4model-Containers/Container Diagram.svg
 
 ### Consequences
@@ -25,3 +30,4 @@ Better security than realizing discussed functions in a single container.
 
 ##### CONS:
 Higher cost of implementing more modules.
+
