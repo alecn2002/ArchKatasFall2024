@@ -45,9 +45,9 @@ The rest of architectural characteristics that are of high importance for the pr
 
 ### Services
 
-The following services are defined for the overall system structure as shown on the [Main Flow with split to subsystems](Solution%2FIteration2nd%2FLevel1-archimate-Business%2F%5BBusiness%5D%20Main%20flow%20-%20split%20to%20subsystems.svg) diagram:
+The following services are defined for the overall system structure as shown on the [Main Flow with split to subsystems](Solution%2FIteration2nd%2FLevel1-archimate-Business%2F%5BBusiness%5D%20Main%20flow%20-%20split%20to%20subsystems.png) diagram:
 
-![Main Flow with split to subsystems](Solution%2FIteration2nd%2FLevel1-archimate-Business%2F%5BBusiness%5D%20Main%20flow%20-%20split%20to%20subsystems.svg)
+![Main Flow with split to subsystems](Solution%2FIteration2nd%2FLevel1-archimate-Business%2F%5BBusiness%5D%20Main%20flow%20-%20split%20to%20subsystems.png)
 
 Analysis of external communications shows the list of external systems need to communicate with DCC system:
 - Job Seekers
@@ -61,6 +61,10 @@ Analysis of external communications shows the list of external systems need to c
 
 ![Container Diagram.svg](Solution%2FIteration2nd%2FLevel2-c4model-Containers%2FContainer%20Diagram.svg)
 
+### Components
+
+![TEE diagram](Solution%2FIteration2nd%2FLevel3-archimate-Application%2F%5BApplication%5D%20HRMS%20Integration%20-%20service%20based.png)
+
 ### Security 
 
 [Threat Analysis](SecurityAspect%2F01.ThreatAnalysis.md) was performed, and based on it 
@@ -68,4 +72,4 @@ Analysis of external communications shows the list of external systems need to c
 
 TEE diagram:
 
-![TEE diagram](Solution%2FIteration2nd%2FLevel3-archimate-Application%2F%5BApplication%5D%20AI%20Engine%20-%20Confidential%20Computing.svg)
+![TEE diagram](Solution%2FIteration2nd%2FLevel3-archimate-Application%2F%5BApplication%5D%20AI%20Engine%20-%20Confidential%20Computing.png)
